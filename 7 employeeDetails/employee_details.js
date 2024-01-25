@@ -6,10 +6,10 @@ const employees = [
 ];
 
 // Practice Task
-const employeesWithSpec = [
-    {id: 1, name: 'John Doe', department: 'IT', specialization: 'JavaScript'},
-    {id: 2, name: 'Alice Smith', department: 'HR', specialization: 'Python'},
-    {id: 3, name: 'Bob Johnson', department: 'Finance', specialization: 'Java'},
+const employeeSpecializations = [
+    {id: 1, specialization: 'JavaScript'},
+    {id: 2, specialization: 'Python'},
+    {id: 3, specialization: 'Java'},
 ]
 // Practice Task end
 
@@ -42,9 +42,10 @@ function findEmployeeById(employeeId) {
 
 // Practice Task
 function findEmployeeBySpec(specialization) {
-    const foundEmployee = employeesWithSpec.find(employee => employee.specialization === specialization);
+    const foundEmployee = employeeSpecializations.find(employee => employee.specialization === specialization);
     if (foundEmployee) {
-        document.getElementById('employeesDetails').innerHTML =`<p>${foundEmployee.id}: ${foundEmployee.name} - ${foundEmployee.department} - ${foundEmployee.specialization}</p>`;
+        const employee = employees.find(employee => employee.id === foundEmployee.id);
+        document.getElementById('employeesDetails').innerHTML =`<p>${employee.id}: ${employee.name} - ${employee.department} - ${foundEmployee.specialization}</p>`;
     }
     else {
         document.getElementById('employeesDetails').innerHTML = 'no employee has been found with this specialization';
