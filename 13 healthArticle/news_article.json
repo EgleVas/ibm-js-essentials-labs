@@ -1,0 +1,23 @@
+{
+    "news": [
+        {
+            "title": "Could new clues on how long COVID affects immune system lead to treatment?",
+            "description": "New research provides more evidence on how SARS-CoV-2 affects the immune system and blood clotting pathways, and could pave the way for treatment.",
+            "abstract": [
+                "Despite the debilitating nature of long COVID, there is an absence of diagnostic tests and therapeutic tools for long COVID.",
+                "A new study analyzed blood samples from long COVID patients and healthy individuals. The findings suggest a dysregulation of the complement pathway, a part of the immune system, and the blood clotting pathways in individuals with long COVID at six months.",
+                "Changes in certain molecules in these immune and blood clotting pathways were predictive of the persistence of long COVID symptoms at 6 and 12 months, indicating the utility of these measures in developing diagnostic tools for long COVID.",
+                "The dysregulation of these immune and blood clotting pathways suggests that therapies targeting these pathways could help treat long COVID."
+            ]
+        },
+        {
+            "title": "Mental health interventions may improve inflammatory bowel disease symptoms",
+            "description": "New research suggests that mental health interventions like therapy may help improve symptoms of inflammatory bowel disease.",
+            "abstract": [
+                "A new meta-analysis suggests that mental health interventions may improve symptoms associated with inflammatory bowel disease (IBD).",
+                "The researchers tracked biomarkers of IBD to reach their conclusion.",
+                "The findings show psychological therapy was highly effective at reducing IBD symptoms."
+            ]
+        }
+    ]
+}
